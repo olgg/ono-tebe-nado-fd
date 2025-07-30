@@ -237,5 +237,54 @@ body {
     text-underline-offset: 3px;    
 }
 
+.about {
+    display: grid;
+    padding: 153px 24px 0;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 7px 15px;
+}
+
+.about__column {
+    border: black 1px solid;
+    /* justify-self: center; */
+}
+
+.about__logo {
+    display: flex;
+    background-color: black;
+    border-radius: 125px;
+    width: 240px;
+    height: 240px;
+    justify-self: center;
+}
+
+.about__logo-image {
+    margin: auto;
+    width: 148px;
+    height: 114px;
+}
+
+.about__title {
+    padding-top: 7px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 24px;
+    grid-column-start: 2;
+}
+
+
+
 
 
