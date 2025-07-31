@@ -127,7 +127,7 @@
 .bet-button {
     width: 258px;
     height: 51px;
-    border: #fff 1px solid;
+    border: currentColor 1px solid;
     color: #fff;
     font-weight: 500;
     font-size: 22px;
